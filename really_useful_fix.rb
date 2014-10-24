@@ -1,4 +1,3 @@
-# This is a really useful fix to the project
 class FibFinder
   def self.fib(n)
     if (n >= 0)
@@ -6,9 +5,6 @@ class FibFinder
     else
       (-1)**(-n+1)*fib_array(-n)[-n]
     end
-  end
-  def self.hell s
-     something = array.new()
   end
   def self.fib_array(n)
     array = []
